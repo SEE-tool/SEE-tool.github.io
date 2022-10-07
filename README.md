@@ -7,11 +7,11 @@ This extension allows students, teachers and general web users to navigate the w
 
 ### GitHub Pages Link:
 
-https://github.com/seg-group13/
+https://github.com/SEE-tool/
 
-https://github.com/seg-group13/seg-group13.github.io
+https://github.com/SEE-tool/seg-group13.github.io
 
-https://github.com/seg-group13/seg-group13.github.io/blob/main/README.md
+https://github.com/SEE-tool/SEE-tool.github.io/blob/main/README.md
 
 ### GitHub Accounts for Each Team Member:­
 
