@@ -16,4 +16,4 @@ https://github.com/uOJackDu 300300105
 
 GitHub Pages Link ­
 
-https://github.com/seg-group13/seg-group13.github.io
+https://github.com/seg-group13/seg-group13.github.io/blob/main/README.md
