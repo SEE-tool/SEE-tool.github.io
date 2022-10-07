@@ -1,4 +1,4 @@
-# studybuddyteam.github.io
+# seg-group13.github.io
 GitHub Organization/Repository Links ­
 
 Description - StudyBuddy
