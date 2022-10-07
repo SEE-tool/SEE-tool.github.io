@@ -11,13 +11,13 @@ https://github.com/studybuddyteam/studybuddyteam.github.io ­
 
 GitHub accounts for each team member (usernames) ­
 
-https://github.com/ChetanMandur Chetan Mandur 0300135400
+https://github.com/ChetanMandur  0300135400
 
-https://github.com/PierreAkladios Pierre Akladios 0300114467
+https://github.com/PierreAkladios  0300114467
 
-https://github.com/Hadhoud5 Hedi Ben Abid 0300123192
+https://github.com/Hadhoud5  0300123192
 
-https://github.com/rpine040 Ralf Pineda 0300111635
+https://github.com/rpine040  0300111635
 
 
 
