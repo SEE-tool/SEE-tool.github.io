@@ -11,7 +11,7 @@ https://github.com/seg-group13/seg-group13.github.io
 
 GitHub accounts for each team member (usernames) ­
 
-https://github.com/uOJackDu 300300105
+https://github.com/uOJackDu Jack Du 300300105
 
 https://github.com/AnLau25 Ana Laura Valdés Rodríguez 300299219
 
