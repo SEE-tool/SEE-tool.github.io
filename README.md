@@ -9,7 +9,7 @@ This extension allows students, teachers and general web users to navigate the w
 
 https://github.com/SEE-tool/
 
-https://github.com/SEE-tool/seg-group13.github.io
+https://github.com/SEE-tool/SEE-tool.github.io
 
 https://github.com/SEE-tool/SEE-tool.github.io/blob/main/README.md
 
