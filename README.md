@@ -19,6 +19,8 @@ https://github.com/uOJackDu Jack Du 300300105
 
 https://github.com/JennyFarag Jenny Farag 300299753
 
+https://github.com/Sophie163 Sophie Hoang 300298416
+
 https://github.com/AnLau25 Ana Laura Valdés Rodríguez 300299219
 
 
