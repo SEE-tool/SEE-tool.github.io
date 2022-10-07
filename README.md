@@ -15,7 +15,7 @@ https://github.com/SEE-tool/SEE-tool.github.io/blob/main/README.md
 
 ### GitHub Accounts for Each Team Member:­
 
-
+https://github.com/yasminabab Yasmina Baba 300298674
 
 https://github.com/uOJackDu Jack Du 300300105
 
