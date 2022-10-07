@@ -10,7 +10,7 @@ GitHub Pages Link
 https://github.com/seg-group13/
 
 https://github.com/seg-group13/seg-group13.github.io
- ­
+
 https://github.com/seg-group13/seg-group13.github.io/blob/main/README.md
 
 GitHub accounts for each team member:­
