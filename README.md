@@ -13,6 +13,8 @@ GitHub accounts for each team member (usernames) ­
 
 https://github.com/uOJackDu 300300105
 
+https://github.com/AnLau25 Ana Laura Valdés Rodríguez 300299219
+
 
 GitHub Pages Link ­
 
