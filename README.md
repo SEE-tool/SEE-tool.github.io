@@ -1,14 +1,9 @@
 # seg-group13.github.io
 This is a README file.
 
-GitHub Organization/Repository Links ­
+### Description - Product of Group 13 - Site Evaluating Extention (SEE Tool)
 
-### Description - Product of Group 13 - Name to be determined
-
-This is the old product description. Do not use this.  
-"A web app and mobile app to help with educational endeavors. Create a profile with your Program of study, Years of Study, Course Schedule, along with optional personal details. StudyBuddy provides a GPS map of your campus with StudySpots, on going study groups, where you can drop in and meet other students. Other features include a Chatroom, Buy and Sell texbooks, Online Resource Hub, Finding Tutors, and more planned."
-
-Description of the product here.
+This extension allows students, teachers and general web users to navigate the web without the risk of falling for miss information. It offers a variety of features that permit a better examination of websites and their contents without spending hours on a keen analysis. With its web summariser, the reliability evaluator and the instant search tool, the user can be sure of the proper understanding of the text and the quality of its sources. Use it and you'll SEE! 
 
 ### GitHub Pages Link:
 
