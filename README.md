@@ -1,4 +1,4 @@
-# seg-group13.github.io
+# SEE-tool.github.io
 This is a README file.
 
 ### Description - Product of Group 13 - Site Evaluating Extention (SEE Tool)
