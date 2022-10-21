@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+/*Head_Ana*/
 {
     padding:0;
     margin:0;
@@ -17,4 +18,34 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+/*Head*/
+
+/*Hero Section Ana*/
+#hero {
+    background-image: url{};
+    background-size: cover;
+    background-position: top center;
+    position relative;
+    z-index: 1;
+}
+
+#hero::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: indigo;
+    opacity: -7;
+    z-index: -1;
+}
+#hero h1{
+    display: block;
+    width: fit-content;
+    font-size: 4rem;
+    position: relative;
+    color: darkgrey;
+    
 }
