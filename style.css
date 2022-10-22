@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 /*Head_Ana*/
-{
+*{
     padding:0;
     margin:0;
     box-sizing: border-box;
 }
+
 html{
     font-size: 10px;
     font-family:'Montserrat', sans-serif;
@@ -41,11 +42,30 @@ a {
     opacity: -7;
     z-index: -1;
 }
+
 #hero h1{
     display: block;
     width: fit-content;
     font-size: 4rem;
     position: relative;
     color: darkgrey;
-    
+}    
+
+#hero .cta{
+    display: inline-block;
+    padding: 10px 30px;
+    color: indigo;
+    background-color: transparent;
+    border: 2px solid indigo;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: -1rem;
+    margin-top: 30px;
+    transition: .3s ease; 
+    transition-property: background-color,color;
+}
+
+#hero .cta:hover{
+    color:darkgray;
+    background-color: indigo;
 }
