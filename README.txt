@@ -19,7 +19,7 @@ https://github.com/SEE-tool/
 
 https://github.com/SEE-tool/SEE-tool.github.io
 
-https://github.com/SEE-tool/SEE-tool.github.io/blob/main/README.txt
+https://SEE-tool.github.io/README.txt
 
 ### GitHub Accounts for Each Team Member:­
 
