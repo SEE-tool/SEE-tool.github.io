@@ -38,8 +38,8 @@ a {
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: indigo;
-    opacity: -7;
+    background-color: black;
+    opacity: 0.7;
     z-index: -1;
 }
 
@@ -48,8 +48,18 @@ a {
     width: fit-content;
     font-size: 4rem;
     position: relative;
-    color: darkgrey;
-}   
+    color: transparent;
+    animation: text_reveal 0.5 ease forwards;
+    animation-delay: 1s;
+}  
+
+#hero h1:nth-child(1){
+    animation-delay: 1s;
+}
+
+#hero h1:nth-child(2){
+    animation-delay: 2s;
+}
 
 #hero h1 span{
     position: absolute;
@@ -59,7 +69,15 @@ a {
     width: 0;
     background-color: indigo;
     animation: text_reveal_box 1s ease;
-    animation-delay: 1s; 
+    animation-delay: 0.5s; 
+}
+
+#hero h1:nth-child(1)span{
+    animation-delay: 0.5s;
+} 
+
+#hero h1:nth-child(2)span{
+    animation-delay: 2.5s;
 }
 
 #hero .cta{
@@ -69,7 +87,7 @@ a {
     background-color: transparent;
     border: 2px solid indigo;
     font-size: 2rem;
-    text-transform: uppercase;
+    text-transform: uppercase; 
     letter-spacing: 0.1rem;
     margin-top: 30px;
     transition: .3s ease; 
@@ -77,7 +95,7 @@ a {
 }
 
 #hero .cta:hover{
-    color:darkgray;
+    color: darkgrey;
     background-color: indigo;
 }
 
@@ -91,6 +109,12 @@ a {
         width: 0;
         left: 100%;
     }
+}
+@keyframes text_reveal{
+    100%{
+        color: darkgray;
+    }
+
 }
 
 
