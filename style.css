@@ -158,5 +158,20 @@ a {
 }
 /*End_Keyframes*/
 
+/*Media query Tablet*/
+@media only screen and (min-width: 78: 768px) {
+    .cta{
+        font-size: 2.5rem;
+        padding: 20px 60px;
+    }
+    /*hero*/
+    #hero h1{
+        font-size: 7rem;
+    }
+}
+/*Media query Tablet_end*/
+
+/*Media query Desktop*/
+/*Media query Desktop_End*/
 
 
