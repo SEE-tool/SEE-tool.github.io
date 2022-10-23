@@ -20,9 +20,9 @@ a {
     align-items: center;
     justify-content: center;
 }
-/*Head*/
+/*End_Head*/
 
-/*Hero Section Ana*/
+/*Hero_SAna*/
 #hero {
     background-image: url{};
     background-size: cover;
@@ -56,6 +56,7 @@ a {
 	animation-delay: 1s;
 }
 #hero h1:nth-child(2) {
+    animation:text_reveal_slog 0.5s ease forwards;
 	animation-delay: 2s;
 }
 
@@ -86,7 +87,7 @@ a {
     font-size: 2rem;
     text-transform: uppercase; 
     letter-spacing: 0.1rem;
-    margin-top: 30px;
+    margin-top: 10px;
     transition: .3s ease; 
     transition-property: background-color,color;
 }
@@ -95,8 +96,9 @@ a {
     color: darkgrey;
     background-color: indigo;
 }
+/*End_Hero*/
 
-/*Keyframes*/
+/*Keyframes_Ana*/
 @keyframes text_reveal_box{
     50%{
         width: 100%;
@@ -112,5 +114,13 @@ a {
         color: darkgray;
     }
 }
-/*Fin Keyframes*/
+@keyframes text_reveal_slog {
+    100%{
+        color: indigo;
+        font-weight: 500;
+    }
+}
+/*End_Keyframes*/
+
+
 
