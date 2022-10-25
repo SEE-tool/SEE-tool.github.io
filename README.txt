@@ -3,7 +3,7 @@ SEE-tool.github.io
 
 This is a README file.
 
-### Description - Product of Group 13 - Site Evaluating Extention (SEE Tool)
+Description - Product of Group 13 - Site Evaluating Extention (SEE Tool)
 
 This extension allows students, teachers and general web users to
 navigate the web without the risk of falling for miss information. It
@@ -13,7 +13,7 @@ With its web summariser, the reliability evaluator and the instant
 search tool, the user can be sure of the proper understanding of the
 text and the quality of its sources. Use it and you'll SEE!
 
-### GitHub Pages Link:
+GitHub Pages Link:
 
 https://github.com/SEE-tool/
 
@@ -21,7 +21,7 @@ https://github.com/SEE-tool/SEE-tool.github.io
 
 https://SEE-tool.github.io/README.txt
 
-### GitHub Accounts for Each Team Member:­
+GitHub Accounts for Each Team Member:­
 
 https://github.com/yasminabab Yasmina Baba 300298674
 
