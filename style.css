@@ -115,6 +115,15 @@ a {
 	transform: scale(0.8);
 	margin-right: 20px;
 }
+
+#header .hamburger .bar {
+	height: 2px;
+	width: 30px;
+	position: relative;
+	background-color: white;
+	z-index: -1;
+}
+
 #header .hamburger:after {
 	position: absolute;
 	content: '';
@@ -124,13 +133,7 @@ a {
 	border: 3px solid white;
 	animation: hamburger_puls 1s ease infinite;
 }
-#header .hamburger .bar {
-	height: 2px;
-	width: 30px;
-	position: relative;
-	background-color: white;
-	z-index: -1;
-}
+
 #header .hamburger .bar::after,
 #header .hamburger .bar::before {
 	content: '';
