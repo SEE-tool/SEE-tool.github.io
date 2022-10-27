@@ -36,7 +36,7 @@ a {
     background-color: rgba(31, 30, 30, 0.24);
 }
 
-.header .nav-bar{
+#header .nav-bar{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -49,7 +49,7 @@ a {
 #header .nav-list ul{
     list-style: none;
     position: absolute;
-    background-color: rgb(31, 30, 30);
+    background-color: darkgray;
     width: 100vw;
     height: 100vh;
     left: 100%;
@@ -67,24 +67,24 @@ a {
     left: 0;
 }
 
-#header .nav-list ul a{
+#header .nav-list ul a {
     font-size: 2.5rem;
     font-weight: 500;
     letter-spacing: .2rem;
     text-decoration: none;
-    color: darkgray;
+    color: white;
     transition: uppercase;
     padding: 20px;
     display: block;
 }
 
-#header .nav-list ul a::after{
+#header .nav-list ul a::after {
     content: attr(data-after);
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%) scale(0);
-    color: rgba(240, 248, 255, 0.021);
+    color: rgba(145, 151, 155, 0.021);
     font-size: 13rem;
     letter-spacing: 50px;
     z-index: -1;
@@ -252,7 +252,7 @@ a {
 #footer .footer{
     min-height: 200px;
     flex-direction: column;
-    padding-top: 50px;
+    padding-top: 20px;
     padding-bottom: 10px;
 }
 
