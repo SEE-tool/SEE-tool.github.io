@@ -164,7 +164,7 @@ a {
 #hero{
     background-image: url(./img/3.png);
     background-size: 1500px;
-    background-position: center;
+    background-position: top;
     position: relative;
 }
 
@@ -230,7 +230,7 @@ a {
 }
 
 #hero .cta:hover{
-    color: darkgrey;
+    color: darkgray;
     background-color: indigo;
 }
 .brand h1{
