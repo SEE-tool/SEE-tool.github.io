@@ -161,12 +161,11 @@ a {
 /*End_Header*/
 
 /*Hero_Ana*/
-#hero {
-    background-image: url("3.png");
-    background-size: cover;
-    background-position: top center;
-    position relative;
-    z-index: 1;
+#hero{
+    background-image: url(./img/3.png);
+    background-size: 1500px;
+    background-position: center;
+    position: relative;
 }
 
 #hero::after{
