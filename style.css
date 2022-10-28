@@ -65,7 +65,7 @@ a {
 }
 
 #header .nav-list ul.active {
-    left: 0;
+    left: 0%;
 }
 
 #header .nav-list ul a {
@@ -162,7 +162,7 @@ a {
 
 /*Hero_Ana*/
 #hero {
-    background-image: url{};
+    background-image: url("3.png");
     background-size: cover;
     background-position: top center;
     position relative;
