@@ -387,41 +387,34 @@ img {
 
 
 /*Jenny*/
-body {
-    font-family:Montserrat;
-    margin:0;
-  }
-  html {
-    box-sizing: border-box;
-    }
-  *,*:before,*after {
-    box-sizing:inherit;
-    }
-  
-  .column {
+#about-us .column {
     float:left;
     width:33.3%;
     margin-bottom:16px;
     padding 0 8px;
-    }
-  .card{
+}
+#about-us .card{
     box-shadow:0 4px 8px 0 rgba(0,0,0,0.2);
     margin:8px;
-    }
-  .about-section{
+}
+
+#about-us .about-section{
     padding:50px;
     text-align:center;
     background-color:darkgray;
-    }
-  .container::after,.row::after{
+}
+
+#about-us .container::after,.row::after{
     content:"";
     clear:both;
     display:table;
-    }
-  .title {
+}
+
+#about-us .title {
     color:indigo;
-    }
-  .button {
+}
+
+#about-us .button {
     border:none;
     outline:0;
     display:inline-block;
@@ -431,10 +424,11 @@ body {
     text-align:center;
     cursor:pointer;
     width:100%;
-    }
-  .button:hover {
+}
+
+#about-us .button:hover {
     background-color:darkgray;
-    }
+}
   
     
 /*Jenny*/
