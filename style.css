@@ -64,7 +64,7 @@ a {
 }
 
 #header .nav-list ul.active{
-    left: 20%;
+    left: 0%;
 }
 
 #header .nav-list ul a{
@@ -84,7 +84,7 @@ a {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(0);
-    color: rgba(58, 58, 61, 0.021);
+    color: rgba(0, 0, 0, 0.021);
     font-size: 13rem;
     letter-spacing: 50px;
     z-index: -1;
