@@ -297,13 +297,15 @@ a {
 }
 @keyframes text_reveal{
     100%{
-        color: darkgray;
+        color: darkgrey;
+        background-color: rgba(76, 0, 130, 0.192);
     }
 }
 @keyframes text_reveal_slog {
     100%{
         color: indigo;
         font-weight: 500;
+        background-color: rgba(76, 0, 130, 0.192);
     }
 }
 /*End_Keyframes*/
