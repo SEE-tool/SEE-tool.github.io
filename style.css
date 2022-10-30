@@ -580,10 +580,10 @@ img {
 .left 
 {
   position: relative; 
-  width: 100%;
+  width: 80%;
   top: 10px;         
-  left: -120px; 
-  padding: 10px;
+  left: -130px; 
+  padding: 6px;
   background: white;
   border-radius: 5px;
 }
@@ -596,7 +596,7 @@ img {
 .left .section input
 {
   width: 100%;
-  padding: 5px 5px 10px 30px;
+  padding: 5px 125px 10px 30px;
   font-size: 16px;
   margin: 10px 0;
   border: none;
@@ -606,15 +606,16 @@ img {
 .left .section i
 {
   position: absolute;
-  left: -5;
-  top: 5;
-  padding: 10px 9px;
+  left: 5px;
+  top: 20px;
+  padding: 10px 9x;
 }
 .left .section span
 {
-  position: absolute;
-  left: 0;
-  padding: 5px 5px 10px 30px;
+  position: relative;
+  left: 13px;
+  top: -40px;
+  padding: 5px 5px 30px 10px;
   font-size: 16px;
   margin: 10px 0;
   pointer-events: none;
@@ -623,16 +624,17 @@ img {
 .left .section input:focus ~ span,
 .left .section input:valid ~ span
 {
+  position: absolute;
   color: indigo;
   font-size: 12px;
-  transform: translateY(-20px);
+  transform: translateY(20px);
 }
 .right 
 {
   position: relative; 
-  width: 95%;
-  top: -205px;         
-  right: -120px; 
+  width: 44%;
+  top: -240px;         
+  right: -300px; 
   padding: 10px;
   background: white;
   border-radius: 5px;
@@ -666,13 +668,13 @@ img {
 .bottom button
 {
   position: absolute;
-  margin-top: -200px;
-  right: 280px;
+  margin-top: -246px;
+  right: 460px;
   font-size: 15px;
   border: none;
   outline: none;
   cursor: pointer;
-  padding: 10;
+  padding: 10px;
   background: white;
   border-radius: 5px;
   transition: transform 0.5s;
