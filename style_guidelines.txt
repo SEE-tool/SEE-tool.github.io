@@ -1,6 +1,6 @@
 Style Guildines
 ===============
-SEE Develoment Team
+SEE Development Team
 2022
 
 The website of SEE Tool should look clean and neat.
