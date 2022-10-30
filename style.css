@@ -174,8 +174,8 @@ a {
 #hero::after{
     content: '';
     position: absolute;
+    bottom: 0;
     left: 0;
-    top: 0;
     height: 100%;
     width: 100%;
     background-color: white;
@@ -298,14 +298,13 @@ a {
 @keyframes text_reveal{
     100%{
         color: white;
-        background-color: rgba(76, 0, 130, 0.192);
+        background-color: rgba(76, 0, 130, 0.41);
     }
 }
 @keyframes text_reveal_slog {
     100%{
         color: indigo;
         font-weight: 500;
-        background-color: rgba(76, 0, 130, 0.192);
     }
 }
 /*End_Keyframes*/
