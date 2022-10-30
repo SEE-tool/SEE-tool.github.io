@@ -1,0 +1,31 @@
+Style Guildines
+===============
+SEE Develoment Team
+2022
+
+The website of SEE Tool should look clean and neat.
+This makes users feel comfortable and calm.
+
+Colors
+======
+The main colors are:
+
+- #FFFFFF (white)
+- #4B0082 (indigo)
+- #808080 (grey)
+- #A9A9A9 (darkgray)
+
+Icons
+=====
+We use icons that are concise and aesthetically pleasing.
+Icons should have a clear and obvious meaning.
+
+Typography
+=========
+The font used: Montserrat
+
+from https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap
+
+Links
+=====
+Links shoud be underlined.
