@@ -615,10 +615,44 @@ img {
 }
 /*Yasmina*/
 
-/*Media query Tablet*/
+/*Media query Tablet_Ana*/
+@media only screen and (min-width: 768px) {
+	.cta {
+		font-size: 2.5rem;
+		padding: 20px 60px;
+	}
+	h1.section-title {
+		font-size: 6rem;
+	}
+	#hero h1 {
+		font-size: 7rem;
+	}
+}
 /*Media query Tablet_end*/
 
-/*Media query Desktop*/
+/*Media query Desktop_Ana*/
+@media only screen and (min-width: 1200px) {
+	/* header */
+	#header .hamburger {
+		display: none;
+	}
+	#header .nav-list ul {
+		position: initial;
+		display: block;
+		height: auto;
+		width: fit-content;
+		background-color: transparent;
+	}
+	#header .nav-list ul li {
+		display: inline-block;
+	}
+	#header .nav-list ul li a {
+		font-size: 1.8rem;
+	}
+	#header .nav-list ul a:after {
+		display: none;
+	}
+}
 /*Media query Desktop_End*/
 
 
