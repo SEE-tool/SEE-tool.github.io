@@ -400,6 +400,11 @@ img {
   text-align: center
 }
 
+#pay .pay-header img {
+  width: 70px;
+  height: 70px;
+}
+
 #pay .pay-header h1 {
   font-size: 4rem;
   font-weight: 500;
@@ -407,29 +412,21 @@ img {
   color: indigo;
 }
 
-#pay .pay-header img {
-  width: 70px;
-  height: 70px;
-}
-
-#pay .icon {
-  float: left;
-  width: 40px;
-  height: 40px;
-}
-
 #pay .pay-item {
   width: 350px;
   height: 250px;
   padding-left: 20px;
   padding-right: 20px;
-  background-color: #cccccc;
+}
+
+#pay .pay-item img {
+  width: 55px;
+  height: 55px;
 }
 
 #pay .pay-item h2 {
   font-size: 3rem;
   font-weight: 500;
-  margin-top: 10px;
   margin-bottom: 10px;
   color: indigo;
   margin-left: 10px;
