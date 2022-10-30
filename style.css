@@ -165,7 +165,7 @@ a {
 
 /*Hero_Ana*/
 #hero{
-    background-image: url(./img/be1.png);
+    background-image: url(./img/be2.jpg);
     background-size: 1500px;
     background-position: top;
     position: relative;
@@ -297,7 +297,7 @@ a {
 }
 @keyframes text_reveal{
     100%{
-        color: darkgrey;
+        color: white;
         background-color: rgba(76, 0, 130, 0.192);
     }
 }
