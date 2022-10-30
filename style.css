@@ -415,8 +415,10 @@ img {
 }
 
 #pay .pay-item{
-  width: 250px;
+  width: 350px;
   height: 250px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 #pay .pay-item h2{
