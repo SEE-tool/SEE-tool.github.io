@@ -443,7 +443,177 @@ img {
 
 
 /*Yasmina*/
-
+*
+{
+  margin:  0;
+  padding:  0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+.contact
+{
+  position: relative;
+  min-height: 100vh;
+  padding: 50px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: linear-gradient(135deg,indigo,grey);
+}
+.contact h1 
+{
+  position: relative;
+  overflow: hidden;
+  right: 6px;
+  padding: 10px;
+  font-size: 50px;
+  font-weight: 200; 
+  float: left;
+  clear: both;
+}
+.contact h1:before,
+.contact h1:after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #808080;
+}
+.contact h1:before{
+  animation: reveal 2s ease forwards;
+}
+.contact h1:after{
+  animation: base 2s ease forwards;
+}
+@keyframes reveal {
+  0%{
+    transform: translateX(-100%);
+  }
+  100%{
+    transform: translateX(111%);
+  }
+}
+@keyframes base{
+  0%{
+    transform: translateX(0%);
+  }
+  100%{
+    transform: translateX(100%);
+  }
+}
+.contact h1:nthchild(1):before,
+.contact h1:nthchild(1):after{
+  animation-delay: 1s;
+}
+.contact h1:nthchild(2):before,
+.contact h1:nthchild(2):after{
+  animation-delay: 1.5s;
+}
+.left 
+{
+  position: relative; 
+  width: 100%;
+  top: 10px;         
+  left: -120px; 
+  padding: 10px;
+  background: white;
+  border-radius: 5px;
+}
+.left .section
+{
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+}
+.left .section input
+{
+  width: 100%;
+  padding: 5px 5px 10px 30px;
+  font-size: 16px;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 2px solid black;
+  outline: none; 
+}
+.left .section i
+{
+  position: absolute;
+  left: -5;
+  top: 5;
+  padding: 10px 9px;
+}
+.left .section span
+{
+  position: absolute;
+  left: 0;
+  padding: 5px 5px 10px 30px;
+  font-size: 16px;
+  margin: 10px 0;
+  pointer-events: none;
+  transition: 0.5s;
+}
+.left .section input:focus ~ span,
+.left .section input:valid ~ span
+{
+  color: indigo;
+  font-size: 12px;
+  transform: translateY(-20px);
+}
+.right 
+{
+  position: relative; 
+  width: 95%;
+  top: -205px;         
+  right: -120px; 
+  padding: 10px;
+  background: white;
+  border-radius: 5px;
+}
+.right .section textarea
+{
+  padding: 25px;
+  border: 2px solid black;
+  border-radius: 10px;
+  outline: none;
+  resize: none;
+  height: 195px;
+}
+.right .section span
+{
+  position: absolute;
+  left: 0;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 10px 0;
+  pointer-events: none;
+  transition: 0.5s;
+}
+.right .section textarea:focus ~ span,
+.right .section textarea:valid ~ valid
+{
+  color: indigo;
+  font-size: 12px;
+  transform: translateY(-10px);  
+}
+.bottom button
+{
+  position: absolute;
+  margin-top: -200px;
+  right: 280px;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10;
+  background: white;
+  border-radius: 5px;
+  transition: transform 0.5s;
+}
+.bottom button:hover
+{
+  transform: scale(1.06);
+}
 /*Yasmina*/
 
 /*Media query Tablet*/
