@@ -390,30 +390,31 @@ img {
 
 
 /*Pay_Jack*/
-#pay .pay{
+#pay .pay {
   margin: 0 auto;
   padding-left: 20px;
   padding-right: 20px;
 }
 
-#pay .pay-header{
+#pay .pay-header {
+  width: 400px;
   text-align: center
 }
 
-#pay .pay-header h1{
+#pay .pay-header h1 {
   font-size: 4rem;
   font-weight: 500;
   letter-spacing: .2rem;
   color: indigo;
 }
 
-#pay .icon{
+#pay .icon {
   float: left;
-  height: 40px;
   width: 40px;
+  height: 40px;
 }
 
-#pay .pay-item{
+#pay .pay-item {
   width: 350px;
   height: 250px;
   padding-left: 20px;
@@ -421,7 +422,7 @@ img {
   background-color: #cccccc;
 }
 
-#pay .pay-item h2{
+#pay .pay-item h2 {
   font-size: 3rem;
   font-weight: 500;
   margin-top: 10px;
@@ -431,7 +432,7 @@ img {
   margin-right: 30px;
 }
 
-#pay .pay-item h3{
+#pay .pay-item h3 {
   font-size: 2rem;
   font-weight: 500;
   margin-top: 10px;
@@ -441,7 +442,7 @@ img {
   margin-right: 30px;
 }
 
-#pay .pay-item ul{
+#pay .pay-item ul {
   font-size: 1.5rem;
   font-weight: 500;
   margin-top: 10px;
@@ -451,7 +452,7 @@ img {
   margin-right: 30px;
 }
 
-#pay .pay-item button{
+#pay .pay-item button {
   margin-top: 10px;
   margin-bottom: 10px;
   color: indigo;
