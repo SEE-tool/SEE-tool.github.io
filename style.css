@@ -10,6 +10,8 @@ html{
     font-size: 10px;
     font-family:'Montserrat', sans-serif;
     scroll-behavior: smooth;
+    box-sizing: border-box;
+    margin: 0;
 }
 a {
     text-decoration: none;
@@ -414,11 +416,11 @@ img {
 }
 
 .card {
-  border-radius: 25px;
+  border-radius: 15px;
   background:transparent;
   padding:10px;
-  width:150px;
-  height:150px;
+  width: 200px;
+  height:200px;
 }
 
 .container {
