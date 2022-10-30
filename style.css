@@ -9,6 +9,7 @@
 html{
     font-size: 10px;
     font-family:'Montserrat', sans-serif;
+    scroll-behavior: smooth;
 }
 a {
     text-decoration: none;
@@ -35,6 +36,7 @@ a {
 #header .header{
     min-height: 8vh;
     background-color: rgba(31, 30, 30, 0.24);
+    transition: .3 ease background-color;
 }
 
 .header .nav-bar{
@@ -104,7 +106,7 @@ a {
 /*End_Header*/
 
 /*Hamburger_Ana*/
-#header .hamburger {
+#header .hamburger{
 	height: 60px;
 	width: 60px;
 	display: inline-block;
@@ -134,7 +136,7 @@ a {
 	height: 100%;
 	width: 100%;
 	border-radius: 50%;
-	border: 3px solid white;
+	border: 3px solid indigo;
 	animation: hamburger_puls 1s ease infinite;
 }
 
@@ -391,7 +393,6 @@ img {
 
 
 /*Jenny*/
-}
 
 #about-us. html{
     box-sizing:border-box;
@@ -632,7 +633,6 @@ img {
 
 /*Media query Desktop_Ana*/
 @media only screen and (min-width: 1200px) {
-	/* header */
 	#header .hamburger {
 		display: none;
 	}
