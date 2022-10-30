@@ -397,7 +397,6 @@ img {
 }
 
 #pay .pay-header {
-  width: 400px;
   text-align: center
 }
 
@@ -406,6 +405,11 @@ img {
   font-weight: 500;
   letter-spacing: .2rem;
   color: indigo;
+}
+
+#pay .pay-header img {
+  width: 70px;
+  height: 70px;
 }
 
 #pay .icon {
