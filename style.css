@@ -394,11 +394,11 @@ img {
 
 /*Jenny*/  
 
-.html {
+.about-us {
   box-sizing:content-box;
-  width:300px;
-  height:80px;
-  padding:30px;
+  width:250px;
+  height:75px;
+  padding:20px;
   border:10px solid indigo;
 }
 *, *:before, *:after {
@@ -410,15 +410,15 @@ img {
   width: 35%;
   margin-bottom: 16px;
   padding: 3 8px;
-  background-color:white
+  background-color: transparent;
 }
 
 .card {
   border-radius: 25px;
-  background:white;
-  padding:20px;
-  width:200px;
-  height:200px;
+  background:transparent;
+  padding:10px;
+  width:150px;
+  height:150px;
 }
 
 .container {
@@ -428,7 +428,7 @@ img {
 .container::after,.row::after{
   content:"";
   clear:both;
-  display:table;
+  display: table;
 }
 .title{
   color:indigo;
