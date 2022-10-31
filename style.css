@@ -488,15 +488,6 @@ img {
 	position: relative;
 }
 
-.about-us {
-  box-sizing:content-box;
-  box-align: center;
-  width:250px;
-  height:80px;
-  padding:20px;
-  border:10px solid indigo;
-  text-align:center
-  }
 *, *:before, *:after {
   box-sizing: inherit;
 }
