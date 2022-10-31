@@ -391,8 +391,9 @@ img {
 
 /*Pay_Jack*/
 #pay .pay {
-  padding-left: 20px;
-  padding-right: 20px;
+  width: auto;
+  height:;
+  border:5px solid indigo;
 }
 
 #pay .pay-header {
