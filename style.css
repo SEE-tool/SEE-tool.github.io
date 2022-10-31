@@ -482,7 +482,7 @@ img {
     size: 30px;
     width: fit-content;
 	font-size: 4rem;
-	position: center;
+	text-align: center;
     color: indigo;
 
 }
