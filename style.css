@@ -482,7 +482,7 @@ img {
     size: 30px;
     width: fit-content;
 	font-size: 4rem;
-	position: relative;
+	position: center;
     color: indigo;
 
 }
@@ -491,7 +491,7 @@ img {
     size: 20px;
     width: fit-content;
 	font-size: 2rem;
-	position: center;
+	position: relative;
 }
 
 .about-us {
