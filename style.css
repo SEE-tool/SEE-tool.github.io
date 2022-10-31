@@ -17,7 +17,7 @@ a {
     text-decoration: none;
 }
 .container{
-    min-height: 70vh;
+    min-height: 100vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -169,7 +169,6 @@ a {
 
 /*Hero_Ana*/
 #hero{
-    height: 100vh;
     background-image: url(./img/be2.jpg);
     background-size: 1500px;
     background-position: top;
@@ -392,18 +391,7 @@ img {
 
 /*Pay_Jack*/
 #pay .pay {
-<<<<<<< HEAD
-  border: 5px solid indigo;
-}
-
-#pay .pay-items {
-  height: 300px;
-  border: 5px solid green;
-=======
-  width: auto;
-  height: auto;
   border:5px solid indigo;
->>>>>>> 7b8b6eb9237bbaef4607db7a587df91c3ebdf721
 }
 
 #pay .pay-header {
