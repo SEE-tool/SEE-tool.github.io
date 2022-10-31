@@ -391,18 +391,18 @@ img {
 
 /*Pay_Jack*/
 #pay .pay {
-  margin: auto;
   padding-left: 20px;
   padding-right: 20px;
 }
 
 #pay .pay-header {
-  text-align: center
+  text-align: center;
 }
 
 #pay .pay-header img {
   width: 70px;
   height: 70px;
+  text-align: center;
 }
 
 #pay .pay-header h1 {
@@ -420,8 +420,8 @@ img {
   padding-left: 20px;
   padding-right: 20px;
   border:5px solid indigo;
-  background-image: url("./img/pay_bg.png");
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  background-color: lavender;
+  box-shadow: 0 4px 8px 0 darkgray;
 }
 
 #pay .pay-item img {
