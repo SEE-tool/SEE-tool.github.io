@@ -469,10 +469,11 @@ img {
 .about-us {
   box-sizing:content-box;
   width:250px;
-  height:75px;
+  height:80px;
   padding:20px;
   border:10px solid indigo;
-}
+  text-align:center
+  }
 *, *:before, *:after {
   box-sizing: inherit;
 }
