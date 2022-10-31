@@ -397,13 +397,15 @@ img {
 }
 
 #pay .pay-header {
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 #pay .pay-header img {
   width: 70px;
   height: 70px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 #pay .pay-header h1 {
@@ -411,6 +413,8 @@ img {
   font-weight: 500;
   letter-spacing: 0.2rem;
   color: indigo;
+  display: flex;
+  justify-content: center;
 }
 
 #pay .pay-item {
@@ -547,7 +551,7 @@ img {
 .contact
 {
   position: relative;
-  min-height: 100vh;
+  min-height: 130vh;
   padding: 50px 100px;
   display: flex;
   justify-content: center;
