@@ -397,8 +397,7 @@ img {
 }
 
 #pay .pay-header {
-  padding-top: 100px;
-  text-align: center; 
+  text-align: center;
 }
 
 #pay .pay-header img {
@@ -412,6 +411,9 @@ img {
   letter-spacing: 0.2rem;
   color: indigo;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  position: relative;
 }
 
 #pay .pay-item {
