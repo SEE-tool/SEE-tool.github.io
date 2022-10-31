@@ -534,9 +534,6 @@ img {
   clear:both;
   display: table;
 }
-.title{
-  color:indigo;
-}
 /*Jenny*/
 
 
@@ -548,6 +545,11 @@ img {
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
 }
+
+.title{
+    color:white;
+  }
+
 .contact
 {
   position: relative;
@@ -576,7 +578,7 @@ img {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: #808080;
+  background-color: darkgray;
 }
 .contact h1:before{
   animation: reveal 2s ease forwards;
@@ -656,7 +658,7 @@ img {
 .left .section input:valid ~ span
 {
   position: absolute;
-  color: indigo;
+  color: white;
   font-size: 12px;
   transform: translateY(20px);
 }
@@ -692,7 +694,7 @@ img {
 .right .section textarea:focus ~ span,
 .right .section textarea:valid ~ valid
 {
-  color: indigo;
+  color: white;
   font-size: 12px;
   transform: translateY(-10px);  
 }
