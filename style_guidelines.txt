@@ -29,3 +29,7 @@ from https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap
 Links
 =====
 Links shoud be underlined.
+
+Movement
+========
+As the creen size changes the content in the website will be re-sized as well.
