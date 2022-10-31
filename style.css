@@ -468,8 +468,9 @@ img {
 #about-us h3{
     size: 30px;
     width: fit-content;
-	font-size: 4rem;
-	text-align: center;
+    font-size: 4rem;
+    text-align: center;
+    letter-spacing:0.2rem;
     color: indigo;
 
 }
