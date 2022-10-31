@@ -468,6 +468,7 @@ img {
 
 .about-us {
   box-sizing:content-box;
+  box-sizing:center;
   width:250px;
   height:80px;
   padding:20px;
