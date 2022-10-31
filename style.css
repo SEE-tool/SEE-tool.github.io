@@ -491,7 +491,7 @@ img {
     size: 20px;
     width: fit-content;
 	font-size: 2rem;
-	position: relative;
+	position: center;
 }
 
 .about-us {
