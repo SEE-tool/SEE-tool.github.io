@@ -466,9 +466,25 @@ img {
 
 /*Jenny*/  
 
+#about-us h3{
+    size: 30px;
+    width: fit-content;
+	font-size: 4rem;
+	position: relative;
+    color: indigo;
+    
+}
+
+#about-us h2{
+    size: 20px;
+    width: fit-content;
+	font-size: 2rem;
+	position: relative;
+}
+
 .about-us {
   box-sizing:content-box;
-  box-sizing:center;
+  box-align: center;
   width:250px;
   height:80px;
   padding:20px;
