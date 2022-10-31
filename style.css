@@ -475,7 +475,8 @@ img {
     width: fit-content;
     font-size: 4rem;
     text-align: center;
-    letter-spacing:0.2rem;
+    letter-spacing:2rem;
+    margin-top:150px;
     color: indigo;
 
 }
