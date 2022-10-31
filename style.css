@@ -399,13 +399,13 @@ img {
 #pay .pay-header {
   display: flex;
   justify-content: center;
+  position: absolute;
+  
 }
 
 #pay .pay-header img {
   width: 70px;
   height: 70px;
-  display: flex;
-  justify-content: center;
 }
 
 #pay .pay-header h1 {
@@ -413,8 +413,10 @@ img {
   font-weight: 500;
   letter-spacing: 0.2rem;
   color: indigo;
+  text-align: center;
   display: flex;
   justify-content: center;
+  position: relative;
 }
 
 #pay .pay-item {
@@ -475,19 +477,18 @@ img {
 
 /*Jenny*/
 #about-us h3{
-    size: 30px;
-    width: fit-content;
-    font-size: 4rem;
-    text-align: center;
-    letter-spacing:1rem;
-    margin-top:150px;
-    color: indigo;
-
+  size: 30px;
+  width: fit-content;
+  font-size: 4rem;
+  margin-top:150px;
+  color: indigo;
+  position: absolute;
+	align-items: center;;
 }
 
 #about-us h2{
-    size: 20px;
-    width: fit-content;
+  size: 20px;
+  width: fit-content;
 	font-size: 2rem;
 	position: relative;
 }
@@ -495,6 +496,7 @@ img {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+
 .card {
   box-shadow:0 4px 8px 0 rgba (0,0,0,0.2);
 }
