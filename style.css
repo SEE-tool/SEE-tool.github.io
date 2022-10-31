@@ -326,8 +326,8 @@ img {
 }
 
 #about .about-header{
-  text-align: center;
-  line-height: ;
+  display: flex;
+  justify-content: center;
 }
 
 #about .about-header h1{
