@@ -471,54 +471,64 @@ img {
 
 
 /*Jenny*/
-#about-us h3{
-  size: 30px;
-  width: fit-content;
-  font-size: 4rem;
-  margin-top:150px;
-  color: indigo;
-  position: absolute;
-	align-items: center;;
+#about-us .about-us {
+	flex-direction: column;
+	text-align: center;
+	max-width: 1500px;
+	margin: 0 auto;
+	padding: 100px 0;
 }
-
-#about-us h2{
-  size: 20px;
-  width: fit-content;
-	font-size: 2rem;
+#about-us .about-top {
+	max-width: 500px;
+	margin: 0 auto;
+}
+#about-us .about-bottom {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-top: 50px;
+}
+#about-us .about-person{
+	flex-basis: 80%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+	padding: 30px;
+	border-radius: 10px;
+	background-image: url(./img/img-1.png);
+	background-size: cover;
+	margin: 10px 5%;
 	position: relative;
+	z-index: 1;
+	overflow: hidden;
 }
-
-*, *:before, *:after {
-  box-sizing: inherit;
+#about-us .about-person::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+	opacity: 0.9;
+	z-index: -1;
 }
-
-.card {
-  box-shadow:0 4px 8px 0 rgba (0,0,0,0.2);
+#about-us .about-bottom .icon {
+	height: 80px;
+	width: 80px;
+	margin-bottom: 20px;
 }
-.column {
-  float: left;
-  width: 35%;
-  margin-bottom: 16px;
-  padding: 3 8px;
-  background-color: transparent;
+#about-us .about-person h2 {
+	font-size: 2rem;
+	color: white;
+	margin-bottom: 10px;
+	text-transform: uppercase;
 }
-
-.card {
-  border-radius: 15px;
-  background:transparent;
-  padding:10px;
-  width: 200px;
-  height:200px;
-}
-
-.container {
-  padding: 2 16px;
-}
-
-.container::after,.row::after{
-  content:"";
-  clear:both;
-  display: table;
+#about-us .about-person p {
+	color: white;
+	text-align: left;
 }
 /*Jenny*/
 
@@ -739,6 +749,11 @@ img {
 	}
 	#header .nav-list ul a:after {
 		display: none;
+	}
+
+  #about-us .about-bottom .about-person {
+		flex-basis: 22%;
+		margin: 1.5%;
 	}
 }
 /*Media query Desktop_End*/
