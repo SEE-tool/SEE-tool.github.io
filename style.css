@@ -23,6 +23,7 @@ a {
     align-items: center;
     justify-content: center;
 }
+
 /*End_General*/
 
 /*Header_Ana*/
@@ -495,7 +496,7 @@ img {
 	align-items: flex-start;
 	justify-content: center;
 	flex-direction: column;
-	padding: 30px;
+	padding: 65px;
 	border-radius: 10px;
 	background-image: url(./img/img-1.png);
 	background-size: cover;
@@ -515,12 +516,13 @@ img {
 	opacity: 0.9;
 	z-index: -1;
 }
-#about-us .about-bottom .icon {
+#about-us.about-bottom.icon {
 	height: 100%;
 	width: 100%;
 	margin-bottom: 20px;
+  border-radius: 10px;
   display: flex;
-  align;
+  align-items: center;
 }
 
 #about-us .about-person h2 {
@@ -535,6 +537,20 @@ img {
 	color: white;
 	margin-bottom: 10px;
 	text-transform: uppercase;
+}
+
+#about-us.about-title {
+	font-size: 4rem;
+	font-weight: 300;
+	color: black;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+	text-align: center;
+}
+
+.about-title span {
+	color: indigo;
 }
 
 #about-us .about-person p {
