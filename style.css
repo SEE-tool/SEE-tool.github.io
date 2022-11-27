@@ -575,8 +575,8 @@ img {
 }
 
 #about-us .about-person h3 {
-	font-size: 2rem;
-	color: white;
+	font-size: 1rem;
+	color: purple;
 	margin-bottom: 10px;
 	text-transform: uppercase;
 }
