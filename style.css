@@ -24,6 +24,20 @@ a {
     justify-content: center;
 }
 
+.section-title {
+	font-size: 4rem;
+	font-weight: 300;
+	color: black;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+	text-align: center;
+  display: inline-block;
+}
+.section-title span {
+	color: indigo;
+}
+
 /*End_General*/
 
 /*Header_Ana*/
@@ -500,7 +514,7 @@ img {
 	border-radius: 10px;
 	background-image: url(./img/img-1.png);
 	background-size: cover;
-	margin: 10px 5%;
+	margin: 5px 5%;
 	position: relative;
 	z-index: 1;
 	overflow: hidden;
@@ -528,6 +542,7 @@ img {
 #about-us .about-person h2 {
 	font-size: 2rem;
 	color: white;
+  margin-top: 20px;
 	margin-bottom: 10px;
 	text-transform: uppercase;
 }
@@ -539,23 +554,16 @@ img {
 	text-transform: uppercase;
 }
 
-#about-us.about-title {
-	font-size: 4rem;
-	font-weight: 300;
+#about-us .about-top p {
+	font-size: 1.5rem;
 	color: black;
 	margin-bottom: 10px;
-	text-transform: uppercase;
-	letter-spacing: 0.2rem;
-	text-align: center;
-}
-
-.about-title span {
-	color: indigo;
 }
 
 #about-us .about-person p {
+	font-size: 1.5rem;
 	color: white;
-	text-align: left;
+	margin-bottom: 10px;
 }
 /*Jenny*/
 
@@ -753,6 +761,10 @@ img {
 	#hero h1 {
 		font-size: 7rem;
 	}
+  #about-us .about-bottom .about-person {
+		flex-basis: 22%;
+		margin: 1.5%;
+	}
 }
 /*Media query Tablet_end*/
 
@@ -778,9 +790,9 @@ img {
 		display: none;
 	}
 
-  #about-us .about-bottom .about-person {
-		flex-basis: 22%;
-		margin: 1.5%;
+  #services .service-bottom .service-item {
+		flex-basis: 45%;
+		margin: 2.5%;
 	}
 }
 /*Media query Desktop_End*/
